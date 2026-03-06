@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>My Expense Tracker</title>
+  <link rel="shortcut icon" href="favicon_io\favicon.ico" type="image/x-icon">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header>
+    <div>
+      <h1>My <span>Expense</span> Tracker</h1>
+      <p>Track your monthly spending</p>
+    </div>
+    <div class="header-date">March <span>2026</span></div>
+  </header>
+
+  <div class="page">
+
+    <p class="section-label">Overview</p>
+    <div class="cards-row">
+
+      <div class="card">
+        <p class="card-label">Total Spent</p>
+        <p class="card-value gold">₹8,000</p>
+        <p class="card-info">of <b>₹10,000</b> budget - 80% used</p>
+      </div>
+
+      <div class="card card--green">
+        <p class="card-label">Highest Category</p>
+        <p class="card-value green">Shopping</p>
+        <p class="card-info"><b>₹5000</b> - 50% of total spend</p>
+      </div>
+
+      <div class="card card--blue">
+        <p class="card-label">Current Month</p>
+        <p class="card-value blue">March</p>
+        <p class="card-info"><b>18 days</b> remaining - 13 transactions</p>
+      </div>
+    </div>
+  </div>
+  <div class="add-section">
+      <button class="add-btn">
+        <span class="add-btn-icon">+</span>
+        Add Expense
+      </button>
+      <p class="add-caption">Add <span>custom data</span> to track your expenses</p>
+    </div>
+</body>
+</html>
